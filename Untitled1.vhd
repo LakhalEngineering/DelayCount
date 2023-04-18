@@ -1,3 +1,4 @@
+// Codesys code
 Delay(IN:=TRUE, PT:=T#1S); (* Delay *)
 		IF NOT(Delay.Q) THEN
  			  RETURN;
