@@ -1,4 +1,5 @@
-// Codesys code
+// Structred text programming( Codesys code) for PLC programming
+// Obecjt : Make a Delay of time using counter
 Delay(IN:=TRUE, PT:=T#1S); (* Delay *)
 		IF NOT(Delay.Q) THEN
  			  RETURN;
